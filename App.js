@@ -11,12 +11,13 @@ import {
 
 //animaciones
 import Animacion1 from './animaciones/Animacion1';
+import Animacion2 from './animaciones/Animacion2';
 
 const App = () => {
   return (
     <>
       <SafeAreaView>
-        <Animacion1 />
+        <Animacion2 />
       </SafeAreaView>
     </>
   );
