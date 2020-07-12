@@ -20,6 +20,8 @@ const Animacion5 = () => {
   const soltarBtn = () => {
     Animated.spring(animacion, {
       toValue: 1,
+      friction: 4, //rebote por default 7, mas bajo mayor rebote
+      tension: 10,
       useNativeDriver: true,
     }).start();
   };
