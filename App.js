@@ -16,12 +16,13 @@ import Animacion3 from './animaciones/Animacion3';
 import Animacion4 from './animaciones/Animacion4';
 import Animacion5 from './animaciones/Animacion5';
 import Animacion6 from './animaciones/Animacion6';
+import Animacion7 from './animaciones/Animacion7';
 
 const App = () => {
   return (
     <>
       <SafeAreaView>
-        <Animacion6 />
+        <Animacion7 />
       </SafeAreaView>
     </>
   );
